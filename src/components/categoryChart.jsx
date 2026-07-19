@@ -40,7 +40,7 @@ export default function CategoryChart({ expenses }) {
               <Cell key={entry.name} fill={CATEGORY_COLORS[entry.name] || "#6b7280"} />
             ))}
           </Pie>
-          <Tooltip formatter={(value) => `$${value}`} />
+          <Tooltip formatter={(value) => `₹${value}`} />
           <Legend />
         </PieChart>
       </ResponsiveContainer>

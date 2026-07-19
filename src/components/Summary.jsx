@@ -26,11 +26,11 @@ export default function Summary({ expenses }) {
     <div className="summary-grid">
       <div className="summary-card">
         <p className="summary-label">Total Spent</p>
-        <p className="summary-value">${total.toFixed(2)}</p>
+        <p className="summary-value">₹{total.toFixed(2)}</p>
       </div>
       <div className="summary-card">
         <p className="summary-label">This Month</p>
-        <p className="summary-value">${thisMonthTotal.toFixed(2)}</p>
+        <p className="summary-value">₹{thisMonthTotal.toFixed(2)}</p>
       </div>
       <div className="summary-card">
         <p className="summary-label">Top Category</p>

@@ -57,7 +57,7 @@ export default function ExpenseForm({ onAddExpense }) {
 
       <div className="form-row-group">
         <div className="form-row">
-          <label htmlFor="amount">Amount ($)</label>
+        <label htmlFor="amount">Amount (₹)</label>
           <input
             id="amount"
             type="number"

@@ -17,7 +17,7 @@ export default function ExpenseItem({ expense, onDelete }) {
           {expense.category} · {new Date(expense.date).toLocaleDateString()}
         </p>
       </div>
-      <span className="expense-amount">${expense.amount.toFixed(2)}</span>
+      <span className="expense-amount">₹{expense.amount.toFixed(2)}</span>
       <button
         className="btn-delete"
         onClick={() => onDelete(expense.id)}
